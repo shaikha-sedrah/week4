@@ -1,0 +1,115 @@
+main{
+    background: linear-gradient(to bottom, #E5E5E5 -95%, #FFFFFF); }
+header{
+    display:flex;
+    align-items: flex-end;
+}
+#title {
+background-image: radial-gradient(#5083AB,#5183AB,#26689F);
+color: #ffff;
+padding:10px 15px;
+}
+.container-fluid{
+    height:100% }
+header h1{
+    color:#454545 }
+header span{
+    color:#5082AB }
+#globe{
+    position: relative;
+    top:20px; }
+#left_container_heading{
+    font-weight: bold;
+    font-size: 17px; }
+#left_container_heading span{
+    color:#DC3A33; }
+#left_container_para{
+    font-weight: bold;
+    font-size: 15px;}
+#left_container_para span{
+    color:#477FAE; }
+.col, .col-lg,.col-lg-9{
+    /*border:3px solid black; */}
+#btn_int_container {
+    padding:10px 0px;
+}
+
+.btn-primary{
+    background-image: linear-gradient(#568EBC, #3372A7);
+    border-style:none;
+    box-shadow:2px 2px 5px #454545; }
+.btn-secondary{
+    background-image: linear-gradient(#EAAA50, #EE8200);
+    border-style:none;
+    box-shadow:2px 2px 5px #454545; }
+
+header img{
+height:100px; }
+#DNS_header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;}
+.DNS_header_inline img{
+    height:25px; 
+    width:25px; 
+    justify-content:space-between;}
+.DNS_header_inline p{
+    font-size:20px;
+    color:#3878AB;
+    }    
+.DNS_header_inline{
+    display: flex;
+    align-items: flex-start; }
+.phone_header_flex{
+    display:flex;
+    align-items: center; }
+#phone_img{
+    height:70px; 
+    width:70px;  }
+#client_server{
+    height:130px; 
+    width:350px;
+    display: block;
+    margin: 0 auto; }
+a {
+    text-decoration: none;
+}
+#big_three{
+    height:125px; 
+    width:150px;
+}
+#inline_flex{
+    padding:15px;
+    border: 6px solid #0283E0;
+    box-shadow:0.5px 3px 2px #454545; 
+    display: flex;
+    align-items:flex-start; }
+#bg_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image:url(source/ad_background.png);
+    height:445px; 
+    width:275px; }
+#pa_ninja{
+    color:white;
+    text-align: center;
+    font-size:25px;
+    z-index: 100;}
+#ninja_img{
+    z-index: 100;
+    height:200px; 
+    width:130px; }
+#learn_btn{
+    z-index: 100;
+    background-image: linear-gradient(#6FCFDF, #02C5DF);
+    border-style:none;
+    box-shadow:2px 2px 5px #454545; 
+}
+#ad_container{
+    justify-content: center;
+    height: fit-content; }
+#phone_no{
+    color:#37C7E0;
+}
